@@ -320,7 +320,7 @@ def level_one():
     fade = False
     while running:
         seconds = (pygame.time.get_ticks() - start_ticks) / 1000  # Convert milliseconds to seconds
-        if seconds > 3:  
+        if seconds > 59:  
             screen.fill((0, 0, 0))
             
             if button_next.draw():
